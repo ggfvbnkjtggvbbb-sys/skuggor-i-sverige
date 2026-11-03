@@ -1,0 +1,26 @@
+name: Packa upp webbplatsen
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  unpack:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Packa upp ZIP
+        run: |
+          unzip -o skuggor_i_sverige_genomgangen_v1_2.zip -d .
+          rm skuggor_i_sverige_genomgangen_v1_2.zip
+
+      - name: Spara webbplatsfilerna
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Packa upp webbplatsen"
+          git push
