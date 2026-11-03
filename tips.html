@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="sv">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Skicka in ett tips om en hemsökt eller mystisk plats i Sverige.">
+  <title>Skicka in ett tips – Skuggor i Sverige</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html"><span class="brand-mark">✦</span><span>SKUGGOR I SVERIGE<small>Platser, berättelser och mysterier</small></span></a>
+    <button class="menu-toggle" aria-label="Öppna meny" aria-expanded="false">☰</button>
+    <nav class="nav">
+      <a href="index.html">Startsida</a>
+      <a href="kategorier.html">Kategorier</a>
+      <a class="active" href="tips.html">Skicka in ett tips</a>
+      <a href="index.html#om">Om sidan</a>
+    </nav>
+  </header>
+
+  <main class="tips-main">
+    <section class="tips-hero">
+      <p class="eyebrow">DIN BERÄTTELSE KAN BLI NÄSTA KAPITEL</p>
+      <h1>Har du ett <em>tips?</em></h1>
+      <p>Har du besökt en märklig plats, hört en sägen eller varit med om något du inte kan förklara? Berätta för oss.</p>
+    </section>
+
+    <section class="form-layout">
+      <aside class="form-aside">
+        <p class="eyebrow dark">INNAN DU SKICKAR</p>
+        <h2>Alla berättelser<br>har en början.</h2>
+        <p>Tips granskas innan något publiceras. Vi kan kontakta dig om vi behöver mer information. Skicka aldrig in någon annans personuppgifter utan tillåtelse.</p>
+        <div class="aside-rule"></div>
+        <p class="aside-small">Viktigt: besök inte avspärrade eller privatägda platser utan tillstånd. Säkerheten går alltid först.</p>
+      </aside>
+
+      <form class="tip-form" id="tipForm">
+        <label for="name">Ditt namn eller signatur <span>(valfritt)</span></label>
+        <input id="name" name="name" type="text" placeholder="Hur vill du bli kallad?">
+
+        <label for="email">E-postadress <span>(valfritt, om vi får kontakta dig)</span></label>
+        <input id="email" name="email" type="email" placeholder="namn@exempel.se">
+
+        <label for="place">Platsens namn <b>*</b></label>
+        <input id="place" name="place" type="text" required placeholder="Exempel: en gammal herrgård">
+
+        <div class="two-fields">
+          <div><label for="municipality">Kommun eller ort</label><input id="municipality" name="municipality" type="text" placeholder="Var ligger platsen?"></div>
+          <div><label for="kind">Vad gäller tipset?</label>
+            <select id="kind" name="kind"><option>Personlig upplevelse</option><option>Lokal sägen eller berättelse</option><option>Historisk plats</option><option>Övergiven plats</option><option>Annat tips</option></select>
+          </div>
+        </div>
+
+        <label for="story">Berätta mer <b>*</b></label>
+        <textarea id="story" name="story" rows="8" required placeholder="Vad känner du till om platsen? Vad hände, när hände det och varifrån kommer berättelsen?"></textarea>
+
+        <label for="permission" class="check-label"><input id="permission" type="checkbox" required> Jag godkänner att tipset skickas in för granskning. Jag förstår att det inte publiceras automatiskt. <b>*</b></label>
+        <button class="button button-dark" type="submit">Skicka in tipset <span>→</span></button>
+        <p class="form-note" id="formNote">Det här är en förhandsversion. Formuläret sparar eller skickar ännu inte uppgifter till någon.</p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a class="brand footer-brand" href="index.html"><span class="brand-mark">✦</span><span>SKUGGOR I SVERIGE<small>Platser, berättelser och mysterier</small></span></a>
+    <p>Fotografier: Intricate Explorer, Chad Nathan och Noha Badawi / Unsplash. Berättelserna lever vidare. © <span id="year"></span></p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

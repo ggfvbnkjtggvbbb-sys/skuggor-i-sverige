@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html lang="sv">
+<head>
+<meta charset="utf-8"/><meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Kategorier – Skuggor i Sverige</title><link href="style.css" rel="stylesheet"/>
+<style>
+.category-intro{padding:75px 8vw 55px;background:#242c27;color:#f2eee5}
+.category-intro h1{font-size:clamp(52px,7vw,82px);margin:18px 0}
+.category-intro p:last-child{max-width:620px;color:#d0cec5;line-height:1.8;font-size:14px}
+.category-list{max-width:1160px;margin:auto;padding:65px 30px 100px;display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.category-card{min-height:210px;background:#e5e1d7;padding:24px;display:flex;flex-direction:column;transition:background .2s}
+.category-card:hover{background:#d9d2c5}
+.category-index{font-size:10px;letter-spacing:.18em;color:#9a634b}
+.category-card h2{font-size:30px;line-height:1;margin:22px 0 8px}
+.category-card p{font-size:11px;line-height:1.7;color:#6c6d65;margin:0 0 20px}
+.category-arrow{font-size:10px;letter-spacing:.08em;margin-top:auto}
+.collection{max-width:1100px;margin:0 auto 100px;padding:32px;background:#252d28;color:#f2eee5;display:flex;justify-content:space-between;align-items:center;gap:25px}
+.collection h2{font:500 36px 'Cormorant Garamond',serif;margin:8px 0}
+.collection p{font-size:12px;line-height:1.7;color:#d0cec5;max-width:620px}
+@media(max-width:760px){.category-list{grid-template-columns:1fr 1fr;padding:40px 18px 70px}.collection{margin:0 18px 70px;flex-direction:column;align-items:flex-start}}
+@media(max-width:480px){.category-list{grid-template-columns:1fr}}
+</style></head>
+<body>
+<header class="site-header">
+<a class="brand" href="index.html"><span class="brand-mark">✦</span><span>SKUGGOR I SVERIGE<small>Platser, berättelser och mysterier</small></span></a>
+<button aria-expanded="false" aria-label="Öppna meny" class="menu-toggle">☰</button>
+<nav class="nav"><a href="index.html">Startsida</a><a class="active" href="kategorier.html">Kategorier</a><a href="tips.html">Skicka in ett tips</a></nav>
+</header>
+<main>
+<section class="category-intro"><p class="eyebrow">HITTA EN PLATS</p><h1>Utforska efter<br/><em>kategori.</em></h1><p>Varje plats får en huvudkategori. Samlingen Övergivna platser ligger separat, så att en plats också kan visas där utan att få flera huvudkategorier.</p></section>
+<section class="category-list"> <a class="category-card" href="platser.html"><span class="category-index">01</span><h2>Slott och herrgårdar</h2><p>Historiska slott, herrgårdar och deras sägner.</p><span class="category-arrow">Utforska kategori →</span></a>
+<a class="category-card" href="platser.html"><span class="category-index">02</span><h2>Fort</h2><p>Försvarsanläggningar, fästningar och gamla militära platser.</p><span class="category-arrow">Utforska kategori →</span></a>
+<a class="category-card" href="platser.html"><span class="category-index">03</span><h2>Prästgårdar</h2><p>Prästboställen med historia och berättelser.</p><span class="category-arrow">Utforska kategori →</span></a>
+<a class="category-card" href="platser.html"><span class="category-index">04</span><h2>Kyrkor</h2><p>Kyrkor, kapell och andra religiösa byggnader.</p><span class="category-arrow">Utforska kategori →</span></a>
+<a class="category-card" href="platser.html"><span class="category-index">05</span><h2>Gravplatser</h2><p>Kyrkogårdar, begravningsplatser och minnesplatser.</p><span class="category-arrow">Utforska kategori →</span></a>
+<a class="category-card" href="platser.html"><span class="category-index">06</span><h2>Ruiner</h2><p>Rester av byggnader och anläggningar med ett förflutet.</p><span class="category-arrow">Utforska kategori →</span></a>
+<a class="category-card" href="platser.html"><span class="category-index">07</span><h2>Sjukhus och sanatorium</h2><p>Vårdplatser och sanatorier med historiska berättelser.</p><span class="category-arrow">Utforska kategori →</span></a>
+<a class="category-card" href="platser.html"><span class="category-index">08</span><h2>Naturen</h2><p>Skogar, sjöar, mossar, berg, öar, källor och andra naturområden med sägner.</p><span class="category-arrow">Utforska kategori →</span></a>
+<a class="category-card" href="platser.html"><span class="category-index">09</span><h2>Hus</h2><p>Bostadshus och andra byggnader med berättelser.</p><span class="category-arrow">Utforska kategori →</span></a>
+<a class="category-card" href="platser.html"><span class="category-index">10</span><h2>Hotell</h2><p>Hotell, pensionat och gamla gästgiverier.</p><span class="category-arrow">Utforska kategori →</span></a>
+<a class="category-card" href="platser.html"><span class="category-index">11</span><h2>Övrigt</h2><p>Platser som inte passar i någon annan huvudkategori.</p><span class="category-arrow">Utforska kategori →</span></a>
+<a class="category-card" href="platser.html"><span class="category-index">12</span><h2>Skolor</h2><p>Skolor, internat och gamla läroanstalter.</p><span class="category-arrow">Utforska kategori →</span></a>
+<a class="category-card" href="platser.html"><span class="category-index">13</span><h2>Fängelser</h2><p>Fängelser, häkten och andra slutna anstalter.</p><span class="category-arrow">Utforska kategori →</span></a>
+<a class="category-card" href="platser.html"><span class="category-index">14</span><h2>Teatrar och nöjeslokaler</h2><p>Teatrar, dansbanor och gamla nöjeslokaler.</p><span class="category-arrow">Utforska kategori →</span></a>
+<a class="category-card" href="platser.html"><span class="category-index">15</span><h2>Gårdar och lantbruk</h2><p>Gårdar, torp och historiska jordbruksmiljöer.</p><span class="category-arrow">Utforska kategori →</span></a>
+<a class="category-card" href="platser.html"><span class="category-index">16</span><h2>Stationer och järnvägar</h2><p>Järnvägsstationer, banvaktarstugor och järnvägsmiljöer.</p><span class="category-arrow">Utforska kategori →</span></a> <a class="category-card" href="platser.html#restauranger"><span class="category-index">17</span><h2>Restauranger och matställen</h2><p>Värdshus, restauranger, kaféer och andra matställen med spökhistorier.</p><span class="category-arrow">Utforska kategori →</span></a><a class="category-card" href="landskap.html"><span class="category-index">18</span><h2>Landskap</h2><p>Utforska platserna landskap för landskap.</p><span class="category-arrow">Utforska kategori →</span></a><a class="category-card" href="spokniva.html"><span class="category-index">19</span><h2>Hur mycket spökar?</h2><p>Sortera platserna efter spöknivå från 1 till 5.</p><span class="category-arrow">Utforska kategori →</span></a></section>
+<section class="collection"><div><p class="eyebrow">SEPARAT SAMLING · FILTER</p><h2>Övergivna platser</h2><p>En särskild samling för platser som övergivits. De behåller samtidigt sin vanliga huvudkategori.</p></div><span class="category-index">18 / SAMLING</span></section>
+</main>
+<footer class="footer"><a class="brand footer-brand" href="index.html"><span class="brand-mark">✦</span><span>SKUGGOR I SVERIGE<small>Platser, berättelser och mysterier</small></span></a><p>Berättelserna lever vidare.</p></footer>
+<script src="script.js"></script></body></html>

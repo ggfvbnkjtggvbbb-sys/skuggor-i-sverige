@@ -1,0 +1,62 @@
+BILDKÄLLOR – Skuggor i Sverige
+Bilderna nedan är införda med respektive licensvillkor. Ingen bild har ändrats.
+
+gripsholms-slott.html: Gripsholms slott.JPG
+Fotograf: Janders
+Licens: Public domain – https://creativecommons.org/publicdomain/zero/1.0/
+Källsida: https://commons.wikimedia.org/wiki/File:Gripsholms_slott.JPG
+
+backaskogs-slott.html: Bäckaskogs slott från luften.jpg
+Fotograf: L.G.foto
+Licens: CC BY-SA 4.0 – https://creativecommons.org/licenses/by-sa/4.0/
+Källsida: https://commons.wikimedia.org/wiki/File:Bäckaskogs_slott_från_luften.jpg
+
+borgholms-slottsruin.html: Borgholms slott.jpg
+Fotograf: Moralist
+Licens: Public domain – https://creativecommons.org/publicdomain/zero/1.0/
+Källsida: https://commons.wikimedia.org/wiki/File:Borgholms_slott.jpg
+
+angso-slott.html: Ängsö slott.jpg
+Fotograf: Tor Svensson
+Licens: CC BY-SA 3.0 – https://creativecommons.org/licenses/by-sa/3.0/
+Källsida: https://commons.wikimedia.org/wiki/File:Ängsö_slott.jpg
+
+lacko-slott.html: Läckö Slott.JPG
+Fotograf: Virtualheritage
+Licens: CC BY-SA 3.0 – https://creativecommons.org/licenses/by-sa/3.0/
+Källsida: https://commons.wikimedia.org/wiki/File:Läckö_Slott.JPG
+
+varbergs-fastning.html: Varbergs fästning.jpg
+Fotograf: Maukie
+Licens: Public domain – https://creativecommons.org/publicdomain/zero/1.0/
+Källsida: https://commons.wikimedia.org/wiki/File:Varbergs_fästning.jpg
+
+bohus-fastning.html: Bohus fästning, Kungälv.jpg
+Fotograf: Kateryna Baiduzha
+Licens: CC BY 4.0 – https://creativecommons.org/licenses/by/4.0/
+Källsida: https://commons.wikimedia.org/wiki/File:Bohus_fästning,_Kungälv.jpg
+
+carlstens-fastning.html: Carlstens fästning 2.jpg
+Fotograf: Oregran
+Licens: CC BY-SA 4.0 – https://creativecommons.org/licenses/by-sa/4.0/
+Källsida: https://commons.wikimedia.org/wiki/File:Carlstens_fästning_2.jpg
+
+borgvattnets-prastgard.html: Spökprästgården i Borgvattnet 2014.jpg
+Fotograf: Thuresson
+Licens: CC BY-SA 4.0 – https://creativecommons.org/licenses/by-sa/4.0/
+Källsida: https://commons.wikimedia.org/wiki/File:Spökprästgården_i_Borgvattnet_2014.jpg
+
+drottningholms-slott.html: Drottningholms Slott.jpg
+Fotograf: Wing-Chi Poon
+Licens: CC BY-SA 2.5 – https://creativecommons.org/licenses/by-sa/2.5/
+Källsida: https://commons.wikimedia.org/wiki/File:Drottningholms_Slott.jpg
+
+rosersbergs-slott.html: Rosersbergs slott.JPG
+Fotograf: Jonny Hansson
+Licens: CC BY-SA 3.0 – https://creativecommons.org/licenses/by-sa/3.0/
+Källsida: https://commons.wikimedia.org/wiki/File:Rosersbergs_slott.JPG
+
+kalmar-slott.html: 002Kalmar slott.jpg
+Fotograf: L.G.foto
+Licens: CC BY-SA 4.0 – https://creativecommons.org/licenses/by-sa/4.0/
+Källsida: https://commons.wikimedia.org/wiki/File:002Kalmar_slott.jpg
